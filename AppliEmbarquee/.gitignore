@@ -1,0 +1,9 @@
+# Ignore output files
+Coordinator/Exe
+Coordinator/Obj
+Coordinator/List
+Sensor/Exe
+Sensor/Obj
+Sensor/List
+settings
+*.dep

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\SampleSwitchOta.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>SampleSwitchOta</project>
+        <configuration>Coordinator</configuration>
+      </member>
+      <member>
+        <project>SampleSwitchOta</project>
+        <configuration>Router</configuration>
+      </member>
+      <member>
+        <project>SampleSwitchOta</project>
+        <configuration>EndDevice</configuration>
+      </member>
+      <member>
+        <project>SampleSwitchOta</project>
+        <configuration>EndDevice - Initial OTA Image</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
